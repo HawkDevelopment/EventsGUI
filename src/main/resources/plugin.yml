@@ -1,0 +1,13 @@
+name: EventsGUI
+version: '${project.version}'
+main: net.hawk.gui.Main
+author: Hawk
+depend: [Essentials]
+
+commands:
+  events:
+    description: Main command for Events
+    aliases: [eventsgui, event, eventgui]
+
+
+

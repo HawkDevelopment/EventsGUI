@@ -1,0 +1,75 @@
+Options:
+  Border:
+    material: STAINED_GLASS_PANE:15
+    enchanted: false
+    name: ' '
+    amount: 1
+  MainMenu:
+    title: "Viewing &n%amount%&r Events"
+  Sound:
+    mainMenuOpen:
+      name: BAT_TAKEOFF
+      volume: 1.0
+      pitch: 0.5
+    mainMenuClose:
+      name: ANVIL_LAND
+      volume: 1.0
+      pitch: 1.5
+    clickEvent:
+      name: LEVEL_UP
+      volume: 1.0
+      pitch: 1.5
+Events:
+  Envoy:
+    material: ENDER_CHEST:0
+    enchanted: false
+    slot: 3
+    name: "&7&l&n%name%&b&l Event"
+    command: "/envoy"
+    lore:
+    - ""
+    - "&b&lEvent Information:"
+    - "&3&l *&b Time &7Every Hour"
+    - ""
+    - "&b&lEvent Description:"
+    - "&7Every hour, Tiered Envoys will spawn"
+    - "&7in warzone, containing gear and items"
+    - "&7that range from armor to kits to perks!"
+    - ""
+    - "&a&lENABLED"
+    - "&7&o(( Tip: &f&oClick&7&o to view more about this event! ))"
+  KOTH:
+    material: DIAMOND_SWORD:0
+    enchanted: false
+    slot: 4
+    name: "&7&l&n%name%&b&l Event"
+    command: "/koth"
+    lore:
+    - ""
+    - "&b&lEvent Information:"
+    - "&3&l *&b Time &7/koth time"
+    - ""
+    - "&b&lEvent Description:"
+    - "&7At scheduled times, a KOTH event will begin,"
+    - "&7where you fight other factions to control the"
+    - "&7capture zone and win epic rewards!"
+    - ""
+    - "&a&lENABLED"
+    - "&7&o(( Tip: &f&oClick&7&o to view more about this event! ))"
+  Boss:
+    material: GHASTEGG
+    enchanted: false
+    slot: 5
+    name: "&7&l&n%name%&b&l Event"
+    command: ""
+    lore:
+    - ""
+    - "&b&lEvent Information:"
+    - "&3&l *&b Time &74PM EST"
+    - ""
+    - "&b&lEvent Description:"
+    - "&7At the schedule time, an overpowered boss"
+    - "&7will spawn in the warzone, dropping epic"
+    - "&7rewards to those brave enough to kill it."
+    - ""
+    - "&a&lENABLED"
