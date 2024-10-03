@@ -37,10 +37,6 @@
                   <goals>
                       <goal>shade</goal>
                   </goals>
-                  <configuration>
-                      <outputFile>C:\Users\today\OneDrive\Desktop\Hawk Development Folder\1.8 Test Server\plugins\EventsGUI-0.1.jar</outputFile>
-                      <createDependencyReducedPom>false</createDependencyReducedPom>
-                  </configuration>
               </execution>
           </executions>
       </plugin>
